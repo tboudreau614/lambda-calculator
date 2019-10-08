@@ -1,15 +1,79 @@
-.container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+.numb-cont-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
+
+.op-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.special-btns-cont {
+    margin-left: 35px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.App {
+    display: flex;
+    background-color: #bb1233;
+    width: 350px;
+    padding: 10px;
+    height: 520px;
+    border-radius: 15px;
+
+}
+
+.number-btn {
+    background-color: #113c78;
+}
+
+.operator-btn {
+    background-color: #3db5e5;
+}
+
+.btn {
+    color: white;
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 8px 6px -6px black;
+    margin: 2px;
+}
+
+.cont-enter {
+    width: 350px;
+    height: 50px;
+    background-color:  #2d2829;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.container-sp-number {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 100px;
+}
+
 .display {
     margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    height: 45px;
+    width: 320px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -18,5 +82,5 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
-    font-size: 5.0rem;
-  }
+    font-size: 2.0rem;
+}
